@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/chicken-invaders-3-spaceship.jpg); 
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.div1{
+    width: 6%;
+    margin-left: 3.6363%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    border-radius: 20px;
+    top: 0;
+}
+.divv img{
+    width: 100%;
+}
+.div11{
+    width: 6%;
+    margin-left: 13.272727%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    border-radius: 20px;
+    top: 0;
+}
+@keyframes change{
+    0%{
+        color:white;
+        top: 0;
+    }
+    25%{
+        color: brown;
+        top: 30%;
+    }
+    50%{
+       color:black; 
+       top: 60%;
+    }
+     75%{
+        color: brown;
+        top: 86%;
+    }
+    100%{
+        color:blue;
+        top: 86%; 
+    }
+}
+.div2{
+    width: 6%;
+    margin-left: 22.9090%;
+    animation-name: change1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;
+    bottom:0;
+    border-radius: 5px;
+}
+.div22{
+    width: 6%;
+    margin-left: 32.5452%;
+    animation-name: change1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 1s;
+    bottom:0;
+    border-radius: 5px;
+}
+@keyframes change1{
+    0%{
+        color:white;
+        bottom: 0;
+    }
+    25%{
+        color: brown;
+        bottom: 30%;
+    }
+    50%{
+       color:black; 
+       bottom: 60%;
+    }
+     75%{
+        color: brown;
+        bottom: 86%;
+    }
+    100%{
+        color:blue;
+        bottom: 86%; 
+    }
+}
+.div3{
+    width: 6%;
+    margin-left: 42.1815%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 2s;
+    top:0; 
+    border-radius: 5px;
+}
+.div33{
+    width: 6%;
+    margin-left: 51.8178%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 2s;
+    top:0; 
+    border-radius: 5px;
+}
+.div4{
+    width: 6%;
+    margin-left: 61.4541%;
+    animation-name: change1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 3s;
+    bottom:0;
+    border-radius: 5px;
+}
+.div44{
+    width: 6%;
+    margin-left: 71.0904%;
+    animation-name: change1;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 3s;
+    bottom:0;
+    border-radius: 5px;
+}
+.div5{
+    width: 6%;
+    margin-left: 80.7267%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 4s;
+    top:0; 
+    border-radius: 5px;
+}
+.div55{
+    width: 6%;
+    margin-left: 90.363%;
+    animation-name: change;
+    animation-duration: 1s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+    animation-delay: 4s;
+    top:0; 
+    border-radius: 5px;
+}
